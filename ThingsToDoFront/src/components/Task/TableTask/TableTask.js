@@ -43,7 +43,7 @@ const TableTask = (props) => {
                         <span>{tasks.priority}</span>
                     </td>
                     <td>
-                        <span>{tasks.start_date}</span>
+                        <span>{tasks.start_date.first(s)}</span>
                     </td>
                     <td>
                         <span>{tasks.end_date}</span>
